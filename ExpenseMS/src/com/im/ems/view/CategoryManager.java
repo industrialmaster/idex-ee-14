@@ -42,6 +42,7 @@ public class CategoryManager extends javax.swing.JPanel {
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
 
+        jLabel1.setForeground(new java.awt.Color(204, 102, 0));
         jLabel1.setText("Name");
 
         btnSave.setText("SAVE");
@@ -95,13 +96,10 @@ public class CategoryManager extends javax.swing.JPanel {
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null}
+
             },
             new String [] {
-                "Title 1", "Title 2", "Title 3", "Title 4"
+                "ID", "NAME"
             }
         ));
         jScrollPane1.setViewportView(jTable1);
